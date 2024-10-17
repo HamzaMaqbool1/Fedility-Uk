@@ -112,9 +112,8 @@ function App() {
 
   return (
     <Router>
-      
-      <Routes>
       <Home/>
+      <Routes>
         <Route path='/connectivity' element={<Connectivity/>}></Route>
         <Route path='/iot' element={<IOT/>}></Route>
         <Route path='/voice' element={<Voice/>}></Route>
