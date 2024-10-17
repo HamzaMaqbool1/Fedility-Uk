@@ -112,8 +112,8 @@ function App() {
 
   return (
     <Router>
+      <Home/>
       <Routes>
-        <Route path='/' element={<Home/>}></Route>
         <Route path='/connectivity' element={<Connectivity/>}></Route>
         <Route path='/iot' element={<IOT/>}></Route>
         <Route path='/voice' element={<Voice/>}></Route>
