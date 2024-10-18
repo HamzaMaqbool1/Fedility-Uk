@@ -111,9 +111,9 @@ function Footer(){
 function App() {
 
   return (
-    <Router>
-      <Home/>
+    <Router basename="/Fedility-Uk/">
       <Routes>
+        <Route path='/' element={ <Home/>}></Route>
         <Route path='/connectivity' element={<Connectivity/>}></Route>
         <Route path='/iot' element={<IOT/>}></Route>
         <Route path='/voice' element={<Voice/>}></Route>
